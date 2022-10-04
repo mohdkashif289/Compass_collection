@@ -16,6 +16,8 @@
 		D4F9E911282D7E4A004ECDBB /* Compass_collectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F9E910282D7E4A004ECDBB /* Compass_collectionTests.swift */; };
 		D4F9E91B282D7E4A004ECDBB /* Compass_collectionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F9E91A282D7E4A004ECDBB /* Compass_collectionUITests.swift */; };
 		D4F9E91D282D7E4A004ECDBB /* Compass_collectionUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F9E91C282D7E4A004ECDBB /* Compass_collectionUITestsLaunchTests.swift */; };
+		D4F9E92A282D7E98004ECDBB /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F9E929282D7E98004ECDBB /* NetworkService.swift */; };
+		D4F9E92C282D8350004ECDBB /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F9E92B282D8350004ECDBB /* ImageCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		D4F9E916282D7E4A004ECDBB /* Compass_collectionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Compass_collectionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4F9E91A282D7E4A004ECDBB /* Compass_collectionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Compass_collectionUITests.swift; sourceTree = "<group>"; };
 		D4F9E91C282D7E4A004ECDBB /* Compass_collectionUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Compass_collectionUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D4F9E929282D7E98004ECDBB /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		D4F9E92B282D8350004ECDBB /* ImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				D4F9E8F9282D7E48004ECDBB /* AppDelegate.swift */,
 				D4F9E8FB282D7E48004ECDBB /* SceneDelegate.swift */,
 				D4F9E8FD282D7E48004ECDBB /* ViewController.swift */,
+				D4F9E92B282D8350004ECDBB /* ImageCell.swift */,
+				D4F9E929282D7E98004ECDBB /* NetworkService.swift */,
 				D4F9E8FF282D7E48004ECDBB /* Main.storyboard */,
 				D4F9E902282D7E4A004ECDBB /* Assets.xcassets */,
 				D4F9E904282D7E4A004ECDBB /* LaunchScreen.storyboard */,
@@ -260,7 +266,9 @@
 			files = (
 				D4F9E8FE282D7E48004ECDBB /* ViewController.swift in Sources */,
 				D4F9E8FA282D7E48004ECDBB /* AppDelegate.swift in Sources */,
+				D4F9E92A282D7E98004ECDBB /* NetworkService.swift in Sources */,
 				D4F9E8FC282D7E48004ECDBB /* SceneDelegate.swift in Sources */,
+				D4F9E92C282D8350004ECDBB /* ImageCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
